@@ -3,7 +3,36 @@ layout: default
 title: Dhiraj Pimparkar's Portfolio
 ---
 
-# Welcome
+<style>
+/* Add some basic styling for the navigation bar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    z-index: 1000;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+</style>
 
 <nav>
   <ul>
@@ -14,8 +43,7 @@ title: Dhiraj Pimparkar's Portfolio
     <li><a href="#projects">Projects</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#resume">Resume</a></li>
-  </ul>
-</nav>
+  </ul
 
 ## About Me
 {: #about-me }
