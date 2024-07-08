@@ -4,40 +4,52 @@ title: Dhiraj Pimparkar's Portfolio
 ---
 
 <style>
-/* Style for full-width sticky navigation bar */
+/* Full-width sticky navigation bar */
 nav {
     position: sticky;
     top: 0;
-    left: 0;
     width: 100%;
     background-color: #f8f9fa;
     padding: 10px 0;
     z-index: 1000;
-    border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom: 20px; /* Add some space below the nav */
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
 }
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center the navigation items */
+    justify-content: center;
+    align-items: center; /* Center items vertically */
+    padding-left: 15px; /* Ensures there is space around the edges */
+    padding-right: 15px;
 }
+
 nav ul li {
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
+
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #ddd; /* Add a hover effect */
+    color: #000;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    padding: 0;
 }
 </style>
 
