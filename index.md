@@ -43,7 +43,8 @@ nav ul li a:hover {
     <li><a href="#projects">Projects</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#resume">Resume</a></li>
-  </ul
+  </ul>
+</nav>
 
 ## About Me
 {: #about-me }
