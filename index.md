@@ -4,24 +4,27 @@ title: Dhiraj Pimparkar's Portfolio
 ---
 
 <style>
-/* Add some basic styling for the navigation bar */
+/* Style for full-width sticky navigation bar */
 nav {
     position: sticky;
     top: 0;
+    left: 0;
+    width: 100%;
     background-color: #f8f9fa;
     padding: 10px 0;
     z-index: 1000;
     border-bottom: 1px solid #e0e0e0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px; /* Add some space below the nav */
 }
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
 }
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 nav ul li a {
@@ -31,6 +34,10 @@ nav ul li a {
 }
 nav ul li a:hover {
     text-decoration: underline;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 </style>
 
